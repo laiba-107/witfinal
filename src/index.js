@@ -1,13 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Import from 'react-dom/client'
-import './index.css';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
+import ReactDOM from 'react-dom/client';  // For React 18, use `createRoot` instead of `render`
+import './index.css';  // Custom global styles (optional)
+import App from './App';  // Import the App component
+import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap's CSS
 
-// Create a root element for rendering
-const root = ReactDOM.createRoot(document.getElementById('root')); 
+const root = ReactDOM.createRoot(document.getElementById('root'));  // Create a root for rendering
 
-// Render the App inside the root element
+// Render the App component inside the root element
 root.render(
-  <App />
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
