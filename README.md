@@ -17,18 +17,7 @@ This is a simple React application that demonstrates how to fetch user data from
 - **Bootstrap**: A front-end framework for building responsive and mobile-first websites.
 - **React-Bootstrap**: React components built using Bootstrap.
 
-├── public/
-│   ├── index.html               # Main HTML file
-├── src/
-│   ├── components/              # Contains all the React components
-│   │   ├── Login.js             # Login component
-│   │   ├── Register.js          # Register component
-│   │   ├── UserList.js          # User list component
-│   ├── App.js                   # Main React component that holds the app structure
-│   ├── App.css                  # Global styles for the app
-│   ├── index.js                 # Entry point for the React app
-├── package.json                 # Project dependencies and scripts
-├── README.md                    # This file
+![image](https://github.com/user-attachments/assets/ebb293c2-b26c-45af-995e-16329fea2739)
 
 
 
